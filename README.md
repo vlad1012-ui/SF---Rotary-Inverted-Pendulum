@@ -1,9 +1,13 @@
 Finding the Breaking Point: Rotary Inverted Pendulum LQR Experiment
+
 Hello! This repository documents my school science fair project: a custom-built Rotary Inverted Pendulum (Furuta Pendulum). I wanted to move beyond a basic project and build something that combined my interest in 3D printing and robotics with complex control theory.
+
 The Project Goal
 The core objective of this experiment is to determine how the position of a fixed mass along the pendulum’s arm affects the stabilization time of a Linear Quadratic Regulator (LQR) control system. This has direct real-world relevance to aerospace rocket gimbals, autonomous drones, and the mechanics of modern prosthetics.
+
 The Hypothesis
 If a fixed mass is moved further from the pivot point, the moment of inertia increases. This changes the physical parameters the controller was designed for, eventually exceeding the stability limits of the fixed LQR gains.
+
 Hardware & Technical Stack
 I designed this to be a high-performance, low-cost prototype using primarily parts I already had:
 
